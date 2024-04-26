@@ -4,3 +4,4 @@ client:RRCConnectionRequest => server:decode(RRCConnectionRequest) => server:RRC
 Сервер сделал многопоточным 
 файлы buildClient.sh buildServer.sh не успел проверить на работоспособность 
 Подразумевается что сначала будет собран сервер
+Клиент и сервер корректно отрабатывают, сообщения кодируются и декодируются 
